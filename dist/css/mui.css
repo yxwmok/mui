@@ -1,6 +1,6 @@
 /*!
  * =====================================================
- * Mui v1.5.0 (https://github.com/dcloudio/mui)
+ * Mui v1.4.0 (https://github.com/dcloudio/mui)
  * =====================================================
  */
 
@@ -629,9 +629,6 @@ p {
   width: auto;
   overflow: auto;
 }
-.mui-plus-pullrefresh .mui-slider-group {
-  overflow: visible;
-}
 .mui-plus-pullrefresh .mui-scroll {
   position: static;
   width: auto;
@@ -889,15 +886,15 @@ button,
   -webkit-transition-duration: .2s;
           transition-duration: .2s;
 }
-input[type="button"]:enabled:active, input[type="button"].mui-active:enabled,
-input[type="submit"]:enabled:active,
-input[type="submit"].mui-active:enabled,
-input[type="reset"]:enabled:active,
-input[type="reset"].mui-active:enabled,
-button:enabled:active,
-button.mui-active:enabled,
-.mui-btn:enabled:active,
-.mui-btn.mui-active:enabled {
+input[type="button"]:active, input[type="button"].mui-active,
+input[type="submit"]:active,
+input[type="submit"].mui-active,
+input[type="reset"]:active,
+input[type="reset"].mui-active,
+button:active,
+button.mui-active,
+.mui-btn:active,
+.mui-btn.mui-active {
   color: #fff;
   background-color: #929292;
 }
@@ -919,9 +916,9 @@ input[type="submit"],
   background-color: #007aff;
   border: 1px solid #007aff;
 }
-input[type="submit"]:enabled:active, input[type="submit"].mui-active:enabled,
-.mui-btn-primary:enabled:active,
-.mui-btn-primary.mui-active:enabled, .mui-btn-blue:enabled:active, .mui-btn-blue.mui-active:enabled {
+input[type="submit"]:active, input[type="submit"].mui-active,
+.mui-btn-primary:active,
+.mui-btn-primary.mui-active, .mui-btn-blue:active, .mui-btn-blue.mui-active {
   color: #fff;
   background-color: #0062cc;
   border: 1px solid #0062cc;
@@ -932,7 +929,7 @@ input[type="submit"]:enabled:active, input[type="submit"].mui-active:enabled,
   background-color: #4cd964;
   border: 1px solid #4cd964;
 }
-.mui-btn-positive:enabled:active, .mui-btn-positive.mui-active:enabled, .mui-btn-success:enabled:active, .mui-btn-success.mui-active:enabled, .mui-btn-green:enabled:active, .mui-btn-green.mui-active:enabled {
+.mui-btn-positive:active, .mui-btn-positive.mui-active, .mui-btn-success:active, .mui-btn-success.mui-active, .mui-btn-green:active, .mui-btn-green.mui-active {
   color: #fff;
   background-color: #2ac845;
   border: 1px solid #2ac845;
@@ -943,7 +940,7 @@ input[type="submit"]:enabled:active, input[type="submit"].mui-active:enabled,
   background-color: #f0ad4e;
   border: 1px solid #f0ad4e;
 }
-.mui-btn-warning:enabled:active, .mui-btn-warning.mui-active:enabled, .mui-btn-yellow:enabled:active, .mui-btn-yellow.mui-active:enabled {
+.mui-btn-warning:active, .mui-btn-warning.mui-active, .mui-btn-yellow:active, .mui-btn-yellow.mui-active {
   color: #fff;
   background-color: #ec971f;
   border: 1px solid #ec971f;
@@ -954,7 +951,7 @@ input[type="submit"]:enabled:active, input[type="submit"].mui-active:enabled,
   background-color: #dd524d;
   border: 1px solid #dd524d;
 }
-.mui-btn-negative:enabled:active, .mui-btn-negative.mui-active:enabled, .mui-btn-danger:enabled:active, .mui-btn-danger.mui-active:enabled, .mui-btn-red:enabled:active, .mui-btn-red.mui-active:enabled {
+.mui-btn-negative:active, .mui-btn-negative.mui-active, .mui-btn-danger:active, .mui-btn-danger.mui-active, .mui-btn-red:active, .mui-btn-red.mui-active {
   color: #fff;
   background-color: #cf2d28;
   border: 1px solid #cf2d28;
@@ -965,7 +962,7 @@ input[type="submit"]:enabled:active, input[type="submit"].mui-active:enabled,
   background-color: #8a6de9;
   border: 1px solid #8a6de9;
 }
-.mui-btn-royal:enabled:active, .mui-btn-royal.mui-active:enabled, .mui-btn-purple:enabled:active, .mui-btn-purple.mui-active:enabled {
+.mui-btn-royal:active, .mui-btn-royal.mui-active, .mui-btn-purple:active, .mui-btn-purple.mui-active {
   color: #fff;
   background-color: #6641e2;
   border: 1px solid #6641e2;
@@ -976,7 +973,7 @@ input[type="submit"]:enabled:active, input[type="submit"].mui-active:enabled,
   background-color: #c7c7cc;
   border: 1px solid #c7c7cc;
 }
-.mui-btn-grey:enabled:active, .mui-btn-grey.mui-active:enabled {
+.mui-btn-grey:active, .mui-btn-grey.mui-active {
   color: #fff;
   background-color: #acacb4;
   border: 1px solid #acacb4;
@@ -1000,7 +997,7 @@ input[type="submit"]:enabled:active, input[type="submit"].mui-active:enabled,
 .mui-btn-outlined.mui-btn-royal, .mui-btn-outlined.mui-btn-purple {
   color: #8a6de9;
 }
-.mui-btn-outlined.mui-btn-primary:enabled:active, .mui-btn-outlined.mui-btn-blue:enabled:active, .mui-btn-outlined.mui-btn-positive:enabled:active, .mui-btn-outlined.mui-btn-success:enabled:active, .mui-btn-outlined.mui-btn-green:enabled:active, .mui-btn-outlined.mui-btn-warning:enabled:active, .mui-btn-outlined.mui-btn-yellow:enabled:active, .mui-btn-outlined.mui-btn-negative:enabled:active, .mui-btn-outlined.mui-btn-danger:enabled:active, .mui-btn-outlined.mui-btn-red:enabled:active, .mui-btn-outlined.mui-btn-royal:enabled:active, .mui-btn-outlined.mui-btn-purple:enabled:active {
+.mui-btn-outlined.mui-btn-primary:active, .mui-btn-outlined.mui-btn-blue:active, .mui-btn-outlined.mui-btn-positive:active, .mui-btn-outlined.mui-btn-success:active, .mui-btn-outlined.mui-btn-green:active, .mui-btn-outlined.mui-btn-warning:active, .mui-btn-outlined.mui-btn-yellow:active, .mui-btn-outlined.mui-btn-negative:active, .mui-btn-outlined.mui-btn-danger:active, .mui-btn-outlined.mui-btn-red:active, .mui-btn-outlined.mui-btn-royal:active, .mui-btn-outlined.mui-btn-purple:active {
   color: #fff;
 }
 
@@ -1011,7 +1008,7 @@ input[type="submit"]:enabled:active, input[type="submit"].mui-active:enabled,
   background-color: transparent;
   border: 0;
 }
-.mui-btn-link:enabled:active, .mui-btn-link.mui-active:enabled {
+.mui-btn-link:active, .mui-btn-link.mui-active {
   color: #0062cc;
   background-color: transparent;
 }
@@ -1031,13 +1028,13 @@ input[type="submit"]:enabled:active, input[type="submit"].mui-active:enabled,
 }
 
 .mui-btn .mui-badge-inverted,
-.mui-btn:enabled:active .mui-badge-inverted {
+.mui-btn:active .mui-badge-inverted {
   background-color: transparent;
 }
 
-.mui-btn-primary:enabled:active .mui-badge-inverted,
-.mui-btn-positive:enabled:active .mui-badge-inverted,
-.mui-btn-negative:enabled:active .mui-badge-inverted {
+.mui-btn-primary:active .mui-badge-inverted,
+.mui-btn-positive:active .mui-badge-inverted,
+.mui-btn-negative:active .mui-badge-inverted {
   color: #fff;
 }
 
@@ -1515,6 +1512,8 @@ input[type="submit"]:enabled:active, input[type="submit"].mui-active:enabled,
   overflow: hidden;
   background-color: inherit;
 
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
   -webkit-touch-callout: none;
 }
 .mui-table-view-cell:after {
